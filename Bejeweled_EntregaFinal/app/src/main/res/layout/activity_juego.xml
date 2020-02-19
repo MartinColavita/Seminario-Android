@@ -1,0 +1,783 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/linear"
+    android:background="#060606">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="right"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textoP"
+            android:textSize="25sp"
+            android:textColor="@color/fondoLinear"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:id="@+id/textoId"
+            android:textSize="25sp"
+            android:textColor="@color/fondoLinear"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+
+    <GridLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#060606"
+        android:orientation="horizontal"
+        android:columnCount="8"
+        android:rowCount="8"
+        android:id="@+id/tablero"
+        android:layout_weight="8"
+        >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            app:srcCompat="@drawable/blue"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="manejador"
+            android:clickable="true"
+            android:background="@drawable/button_state_list_drawable"
+            />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            app:srcCompat="@drawable/green"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="manejador"
+            android:clickable="true"
+            android:background="@drawable/button_state_list_drawable"/>
+
+        <ImageView
+            android:id="@+id/imageView3"
+            app:srcCompat="@drawable/orange"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="manejador"
+            android:clickable="true"
+            android:background="@drawable/button_state_list_drawable"/>
+
+        <ImageView
+            android:id="@+id/imageView4"
+            app:srcCompat="@drawable/purple"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="manejador"
+            android:clickable="true"
+            android:background="@drawable/button_state_list_drawable"/>
+
+        <ImageView
+            android:id="@+id/imageView5"
+            app:srcCompat="@drawable/red"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="manejador"
+            android:clickable="true"
+            android:background="@drawable/button_state_list_drawable"/>
+
+        <ImageView
+            android:id="@+id/imageView6"
+            app:srcCompat="@drawable/yellow"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="manejador"
+            android:clickable="true"
+            android:background="@drawable/button_state_list_drawable"/>
+
+        <ImageView
+            android:id="@+id/imageView7"
+            app:srcCompat="@drawable/blue"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="manejador"
+            android:clickable="true"
+            android:background="@drawable/button_state_list_drawable"/>
+
+        <ImageView
+            android:id="@+id/imageView8"
+            app:srcCompat="@drawable/green"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="manejador"
+            android:clickable="true"
+            android:background="@drawable/button_state_list_drawable"/>
+
+        <ImageView
+            android:id="@+id/imageView9"
+            app:srcCompat="@drawable/blue"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="manejador"
+            android:clickable="true"
+            android:background="@drawable/button_state_list_drawable"/>
+
+        <ImageView
+            android:id="@+id/imageView10"
+            app:srcCompat="@drawable/green"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="manejador"
+            android:clickable="true"
+            android:background="@drawable/button_state_list_drawable"/>
+
+        <ImageView
+            android:id="@+id/imageView11"
+            app:srcCompat="@drawable/orange"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="manejador"
+            android:clickable="true"
+            android:background="@drawable/button_state_list_drawable"/>
+
+        <ImageView
+            android:id="@+id/imageView12"
+            app:srcCompat="@drawable/purple"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="manejador"
+            android:clickable="true"
+            android:background="@drawable/button_state_list_drawable"/>
+
+        <ImageView
+            android:id="@+id/imageView13"
+            app:srcCompat="@drawable/red"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="manejador"
+            android:clickable="true"
+            android:background="@drawable/button_state_list_drawable"/>
+
+        <ImageView
+            android:id="@+id/imageView14"
+            app:srcCompat="@drawable/yellow"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="manejador"
+            android:clickable="true"
+            android:background="@drawable/button_state_list_drawable"/>
+
+        <ImageView
+            android:id="@+id/imageView15"
+            app:srcCompat="@drawable/blue"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="manejador"
+            android:clickable="true"
+            android:background="@drawable/button_state_list_drawable"/>
+
+        <ImageView
+            android:id="@+id/imageView16"
+            app:srcCompat="@drawable/green"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="manejador"
+            android:clickable="true"
+            android:background="@drawable/button_state_list_drawable"/>
+
+
+        <ImageView
+            android:id="@+id/imageView17"
+            app:srcCompat="@drawable/blue"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="manejador"
+            android:clickable="true"
+            android:background="@drawable/button_state_list_drawable"/>
+
+        <ImageView
+            android:id="@+id/imageView18"
+            app:srcCompat="@drawable/green"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="manejador"
+            android:clickable="true"
+            android:background="@drawable/button_state_list_drawable"/>
+
+        <ImageView
+            android:id="@+id/imageView19"
+            app:srcCompat="@drawable/orange"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="manejador"
+            android:clickable="true"
+            android:background="@drawable/button_state_list_drawable"/>
+
+        <ImageView
+            android:id="@+id/imageView20"
+            app:srcCompat="@drawable/purple"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="manejador"
+            android:clickable="true"
+            android:background="@drawable/button_state_list_drawable"/>
+
+        <ImageView
+            android:id="@+id/imageView21"
+            app:srcCompat="@drawable/red"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="manejador"
+            android:clickable="true"
+            android:background="@drawable/button_state_list_drawable"/>
+
+        <ImageView
+            android:id="@+id/imageView22"
+            app:srcCompat="@drawable/yellow"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="manejador"
+            android:clickable="true"
+            android:background="@drawable/button_state_list_drawable"/>
+
+        <ImageView
+            android:id="@+id/imageView23"
+            app:srcCompat="@drawable/blue"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="manejador"
+            android:clickable="true"
+            android:background="@drawable/button_state_list_drawable"/>
+
+        <ImageView
+            android:id="@+id/imageView24"
+            app:srcCompat="@drawable/green"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="manejador"
+            android:clickable="true"
+            android:background="@drawable/button_state_list_drawable"/>
+
+        <ImageView
+            android:id="@+id/imageView25"
+            app:srcCompat="@drawable/blue"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="manejador"
+            android:clickable="true"
+            android:background="@drawable/button_state_list_drawable"/>
+
+        <ImageView
+            android:id="@+id/imageView26"
+            app:srcCompat="@drawable/green"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="manejador"
+            android:clickable="true"
+            android:background="@drawable/button_state_list_drawable"/>
+
+        <ImageView
+            android:id="@+id/imageView27"
+            app:srcCompat="@drawable/orange"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="manejador"
+            android:clickable="true"
+            android:background="@drawable/button_state_list_drawable"/>
+
+        <ImageView
+            android:id="@+id/imageView28"
+            app:srcCompat="@drawable/purple"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="manejador"
+            android:clickable="true"
+            android:background="@drawable/button_state_list_drawable"/>
+
+        <ImageView
+            android:id="@+id/imageView29"
+            app:srcCompat="@drawable/red"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="manejador"
+            android:clickable="true"
+            android:background="@drawable/button_state_list_drawable"/>
+
+        <ImageView
+            android:id="@+id/imageView30"
+            app:srcCompat="@drawable/yellow"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="manejador"
+            android:clickable="true"
+            android:background="@drawable/button_state_list_drawable"/>
+
+        <ImageView
+            android:id="@+id/imageView31"
+            app:srcCompat="@drawable/blue"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="manejador"
+            android:clickable="true"
+            android:background="@drawable/button_state_list_drawable"/>
+
+        <ImageView
+            android:id="@+id/imageView32"
+            app:srcCompat="@drawable/green"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="manejador"
+            android:clickable="true"
+            android:background="@drawable/button_state_list_drawable"/>
+
+        <ImageView
+            android:id="@+id/imageView33"
+            app:srcCompat="@drawable/blue"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="manejador"
+            android:clickable="true"
+            android:background="@drawable/button_state_list_drawable"/>
+
+        <ImageView
+            android:id="@+id/imageView34"
+            app:srcCompat="@drawable/green"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="manejador"
+            android:clickable="true"
+            android:background="@drawable/button_state_list_drawable"/>
+
+        <ImageView
+            android:id="@+id/imageView35"
+            app:srcCompat="@drawable/orange"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="manejador"
+            android:clickable="true"
+            android:background="@drawable/button_state_list_drawable"/>
+
+        <ImageView
+            android:id="@+id/imageView36"
+            app:srcCompat="@drawable/purple"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="manejador"
+            android:clickable="true"
+            android:background="@drawable/button_state_list_drawable"/>
+
+        <ImageView
+            android:id="@+id/imageView37"
+            app:srcCompat="@drawable/red"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="manejador"
+            android:clickable="true"
+            android:background="@drawable/button_state_list_drawable"/>
+
+        <ImageView
+            android:id="@+id/imageView38"
+            app:srcCompat="@drawable/yellow"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="manejador"
+            android:clickable="true"
+            android:background="@drawable/button_state_list_drawable"/>
+
+        <ImageView
+            android:id="@+id/imageView39"
+            app:srcCompat="@drawable/blue"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="manejador"
+            android:clickable="true"
+            android:background="@drawable/button_state_list_drawable"/>
+
+        <ImageView
+            android:id="@+id/imageView40"
+            app:srcCompat="@drawable/green"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="manejador"
+            android:clickable="true"
+            android:background="@drawable/button_state_list_drawable"/>
+
+        <ImageView
+            android:id="@+id/imageView41"
+            app:srcCompat="@drawable/blue"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="manejador"
+            android:clickable="true"
+            android:background="@drawable/button_state_list_drawable"/>
+
+        <ImageView
+            android:id="@+id/imageView42"
+            app:srcCompat="@drawable/green"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="manejador"
+            android:clickable="true"
+            android:background="@drawable/button_state_list_drawable"/>
+
+        <ImageView
+            android:id="@+id/imageView43"
+            app:srcCompat="@drawable/orange"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="manejador"
+            android:clickable="true"
+            android:background="@drawable/button_state_list_drawable"/>
+
+        <ImageView
+            android:id="@+id/imageView44"
+            app:srcCompat="@drawable/purple"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="manejador"
+            android:clickable="true"
+            android:background="@drawable/button_state_list_drawable"/>
+
+        <ImageView
+            android:id="@+id/imageView45"
+            app:srcCompat="@drawable/red"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="manejador"
+            android:clickable="true"
+            android:background="@drawable/button_state_list_drawable"/>
+
+        <ImageView
+            android:id="@+id/imageView46"
+            app:srcCompat="@drawable/yellow"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="manejador"
+            android:clickable="true"
+            android:background="@drawable/button_state_list_drawable"/>
+
+        <ImageView
+            android:id="@+id/imageView47"
+            app:srcCompat="@drawable/blue"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="manejador"
+            android:clickable="true"
+            android:background="@drawable/button_state_list_drawable"/>
+
+        <ImageView
+            android:id="@+id/imageView48"
+            app:srcCompat="@drawable/green"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="manejador"
+            android:clickable="true"
+            android:background="@drawable/button_state_list_drawable"/>
+
+
+        <ImageView
+            android:id="@+id/imageView49"
+            app:srcCompat="@drawable/blue"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="manejador"
+            android:clickable="true"
+            android:background="@drawable/button_state_list_drawable"/>
+
+        <ImageView
+            android:id="@+id/imageView50"
+            app:srcCompat="@drawable/green"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="manejador"
+            android:clickable="true"
+            android:background="@drawable/button_state_list_drawable"/>
+
+        <ImageView
+            android:id="@+id/imageView51"
+            app:srcCompat="@drawable/orange"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="manejador"
+            android:clickable="true"
+            android:background="@drawable/button_state_list_drawable"/>
+
+        <ImageView
+            android:id="@+id/imageView52"
+            app:srcCompat="@drawable/purple"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="manejador"
+            android:clickable="true"
+            android:background="@drawable/button_state_list_drawable"/>
+
+        <ImageView
+            android:id="@+id/imageView53"
+            app:srcCompat="@drawable/red"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="manejador"
+            android:clickable="true"
+            android:background="@drawable/button_state_list_drawable"/>
+
+        <ImageView
+            android:id="@+id/imageView54"
+            app:srcCompat="@drawable/yellow"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="manejador"
+            android:clickable="true"
+            android:background="@drawable/button_state_list_drawable"/>
+
+        <ImageView
+            android:id="@+id/imageView55"
+            app:srcCompat="@drawable/blue"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="manejador"
+            android:clickable="true"
+            android:background="@drawable/button_state_list_drawable"/>
+
+        <ImageView
+            android:id="@+id/imageView56"
+            app:srcCompat="@drawable/green"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="manejador"
+            android:clickable="true"
+            android:background="@drawable/button_state_list_drawable"/>
+
+        <ImageView
+            android:id="@+id/imageView57"
+            app:srcCompat="@drawable/blue"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="manejador"
+            android:clickable="true"
+            android:background="@drawable/button_state_list_drawable"/>
+
+        <ImageView
+            android:id="@+id/imageView58"
+            app:srcCompat="@drawable/green"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="manejador"
+            android:clickable="true"
+            android:background="@drawable/button_state_list_drawable"/>
+
+        <ImageView
+            android:id="@+id/imageView59"
+            app:srcCompat="@drawable/orange"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="manejador"
+            android:clickable="true"
+            android:background="@drawable/button_state_list_drawable"/>
+
+        <ImageView
+            android:id="@+id/imageView60"
+            app:srcCompat="@drawable/purple"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="manejador"
+            android:clickable="true"
+            android:background="@drawable/button_state_list_drawable"/>
+
+        <ImageView
+            android:id="@+id/imageView61"
+            app:srcCompat="@drawable/red"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="manejador"
+            android:clickable="true"
+            android:background="@drawable/button_state_list_drawable"/>
+
+        <ImageView
+            android:id="@+id/imageView62"
+            app:srcCompat="@drawable/yellow"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="manejador"
+            android:clickable="true"
+            android:background="@drawable/button_state_list_drawable"/>
+
+        <ImageView
+            android:id="@+id/imageView63"
+            app:srcCompat="@drawable/blue"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="manejador"
+            android:clickable="true"
+            android:background="@drawable/button_state_list_drawable"/>
+
+        <ImageView
+            android:id="@+id/imageView64"
+            app:srcCompat="@drawable/green"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="manejador"
+            android:clickable="true"
+            android:background="@drawable/button_state_list_drawable"/>
+    </GridLayout>
+
+    <Button
+        android:id="@+id/refrescarID_BTN"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:onClick="refrescarBoton"
+        android:text="@string/refrescar"
+        android:textStyle="bold"
+        android:layout_weight="1"
+        />
+
+    <Button
+        android:id="@+id/terminarID_BTN"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:onClick="terminarBoton"
+        android:text="@string/terminar"
+        android:textStyle="bold"
+        android:layout_weight="1"
+        />
+
+
+</LinearLayout>
+

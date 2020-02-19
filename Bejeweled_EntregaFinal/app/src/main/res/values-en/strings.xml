@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BEJEWELED</string>
+    <string name="terminar">FINISH</string>
+    <string name="si">Yes</string>
+    <string name="salir">EXIT</string>
+    <string name="refrescar">REFRESH</string>
+    <string name="puntos">RANKING</string>
+    <string name="nombre">Name..</string>
+    <string name="no">No</string>
+    <string name="jugar">PLAY</string>
+    <string name="felicidades">CONGRATULATIONS !</string>
+    <string name="deseaTerminarJuego">" Do you want to end the game?"</string>
+    <string name="cadenaFelicidades">" Congratulations your score is among the best 10. Enter your name to appear in the standings. CRACKKK !!!"</string>
+    <string name="titulotop">TOP 10</string>
+    <string name="textoP" translatable="false">"SCORE:     "</string>
+    <string name="sahredd">sharedd</string>
+    <string name="volver" translatable="false">BACK</string>
+    <string name="deseaMenuPcipal" translatable="false">Want to Return to the Main Menu ?</string>
+    <string name="terminarJuego" translatable="false">END GAME</string>
+    <string name="aceptar" translatable="false">Agree</string>
+    <string name="nofigurar" translatable="false">" I do not want to appear"</string>
+</resources>

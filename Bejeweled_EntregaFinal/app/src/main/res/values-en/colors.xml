@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="celeste">#48A5F3</color>
+    <color name="azul">#0B03FD</color>
+    <color name="rojo">#F80320</color>
+    <color name="amarillo">#FAE248</color>
+    <color name="negro">#090808</color>
+    <color name="colorBlanco">#FDFCFC</color>
+    <color name="fondoDeGemma">#51CAD6D5</color>
+    <color name="fondoLinear">#D71A34DF</color>
+
+
+</resources>

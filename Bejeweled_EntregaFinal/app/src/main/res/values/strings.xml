@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">BEJEWELED</string>
+
+    <string name="jugar">JUGAR</string>
+    <string name="puntos">PUNTAJES</string>
+    <string name="salir">SALIR</string>
+    <string name="terminar">TERMINAR</string>
+    <string name="refrescar">REFRESCAR</string>
+    <string name="felicidades">FELICIDADES !</string>
+    <string name="si">Si</string>
+    <string name="no">No</string>
+    <string name="deseaTerminarJuego">"¿ Desea Terminar El Juego ?"</string>
+    <string name="nombre">Nombre..</string>
+    <string name="cadenaFelicidades">"Felicidades tu puntaje se encuentra entre los mejores 10. ingresa tu nombre para figurar en la tabla de posiciones. CRACKKK !!!"</string>
+    <string name="textoP">"PUNTOS:     "</string>
+    <string name="titulotop">MEJORES 10</string>
+    <string name="sahredd">sharedd</string>
+    <string name="volver">VOLVER</string>
+    <string name="deseaMenuPcipal">"¿ Desea Volver Al Menu Principal ?"</string>
+    <string name="terminarJuego">TERMINAR JUEGO</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="nofigurar">No Quiero Figurar</string>
+
+</resources>
